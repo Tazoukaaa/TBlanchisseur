@@ -9,7 +9,7 @@ Dans le fichier config vous retrouverez :
 
 Le tout dans un menu est peut être un incovenient pour certaines personnes. Une autre version sera donc disponible dès le 14/11/21 avec la possibilité de configurer des zones de points.
 
-<a href="https://github.com/">Configurer le header du script</a>
+<a href="https://github.com/Tazoukaaa/">Tazoukaa</a>
 
 #############################################################################
 
@@ -23,4 +23,4 @@ In the config file you will find:
 
 Everything in a menu may be an inconvenience for some people. Another version will be available from 14/11/21 with the possibility to configure point areas.
 
-<a href="https://github.com/">Configurer le header du script</a>
+<a href="https://github.com/Tazoukaaa/">Tazoukaa</a>
