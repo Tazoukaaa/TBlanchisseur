@@ -16,10 +16,10 @@ AddEventHandler('HTOnTheFlux:blanchiment', function(argent)
 	if argent > 0 and xPlayer.getAccount('black_money').money >= argent then
 		xPlayer.removeAccountMoney('black_money', argent)
 		TriggerClientEvent('esx:showAdvancedNotification', xPlayer.source, 'Information', 'Blanchiment', 'Attends ~r~15 minutes pour l\'opération', 'CHAR_MP_FM_CONTACT', 8)
-		Citizen.Wait(900000)
+		Citizen.Wait(600000)
 		
 		TriggerClientEvent('esx:showAdvancedNotification', xPlayer.source, 'Information', 'Blanchiment', 'Tu as reçu : ' .. ESX.Math.GroupDigits(Total) .. ' ~g~$', 'CHAR_MP_FM_CONTACT', 8)
-		xPlayer.addMoney(Total)
+		xPlayer.addMoney(argent)
 	else
 		TriggerClientEvent('esx:showAdvancedNotification', xPlayer.source, 'Information', 'Blanchiment', '~r~Montant invalide', 'CHAR_MP_FM_CONTACT', 8)
 	end	
