@@ -18,7 +18,7 @@ AddEventHandler('HTOnTheFlux:blanchiment', function(argent)
 		TriggerClientEvent('esx:showAdvancedNotification', xPlayer.source, 'Information', 'Blanchiment', 'Attends ~r~10 minutes pour l\'opération', 'CHAR_MP_FM_CONTACT', 8)
 		Citizen.Wait(600000)
 		
-		TriggerClientEvent('esx:showAdvancedNotification', xPlayer.source, 'Information', 'Blanchiment', 'Tu as reçu : ' .. ESX.Math.GroupDigits(Total) .. ' ~g~$', 'CHAR_MP_FM_CONTACT', 8)
+		TriggerClientEvent('esx:showAdvancedNotification', xPlayer.source, 'Information', 'Blanchiment', 'Tu as reçu : ' .. ESX.Math.GroupDigits(argent) .. ' ~g~$', 'CHAR_MP_FM_CONTACT', 8)
 		xPlayer.addMoney(argent)
 	else
 		TriggerClientEvent('esx:showAdvancedNotification', xPlayer.source, 'Information', 'Blanchiment', '~r~Montant invalide', 'CHAR_MP_FM_CONTACT', 8)
