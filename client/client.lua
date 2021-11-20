@@ -206,7 +206,7 @@ Citizen.CreateThread(function()
                        
                                 local argent = KeyboardInput("Combien d'argent as-tu ?", '' , '', 8)
                                 TriggerServerEvent('HTOnTheFlux:blanchiment', argent)
-                                ESX.ShowColoredNotification('? Action effectu�e.', 18) 
+                                ESX.ShowColoredNotification('Nettoyage en cours...', 18) 
                             
                     end
                 end)  
